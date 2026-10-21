@@ -296,7 +296,7 @@
               <div className="text-center py-10 text-red-500 font-bold">{fetchError}</div>
             ) : dashData && dashData.length > 0 ? (
               (() => {
-                const targetRow = dashData.find(row => row["Nombre"] === "Miguel Angel Guzmán Robles") || dashData[0] || {};
+                const targetRow = dashData.find(row => row["Nombre"] === "Miguel Angel Guzman Robles ") || dashData[0] || {};
 
                 const formatMax3 = (val) => {
                   if (typeof val === 'number') {
@@ -328,7 +328,7 @@
                   <div className="space-y-12">
                     <div className="text-center space-y-4 mb-10">
                       <h2 className="text-4xl md:text-5xl font-black text-[#3C1053] dark:text-fuchsia-50 tracking-tighter">
-                        Bienvenida Miguel Angel Guzmán Robles
+                        Bienvenida Miguel Angel Guzman Robles  
                       </h2>
                       <h3 className="text-xl md:text-2xl font-bold text-gray-500 dark:text-gray-400">
                         Este es tu dashboard del mes de <span className="text-cyan-500 uppercase">{dashMes || 'Mes no detectado'}</span>
